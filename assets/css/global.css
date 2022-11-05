@@ -1,0 +1,39 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+    background-image: url(../img/pokeball_icon.svg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 230px;
+    background-position: 110% -60px;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+        background-size: 25%;
+        background-position: 110% -60px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .content {
+        
+        background-size: 200px;
+        background-position: 150% -40px;
+    }
+}
